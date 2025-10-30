@@ -5,7 +5,7 @@ pipeline {
         SPOTBUGS_JAR = 'spotbugs-4.9.3/spotbugs-4.9.3/lib/spotbugs.jar'
         FSBUGS_PLUGIN = 'fsb/lib/findsecbugs-plugin-1.14.0.jar'
         OUTPUT_SARIF = 'findsecbugs-report.sarif'
-        TARGET_JAR   = 'vulnerablesqlapp.tar'
+        TARGET_JAR   = 'vulnearblesqlapp-0.0.1-SNAPSHOT.jar'
     }
     triggers {
         cron '15 01 * * 1-7'
